@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr_v5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_41789</BlastOutput_query-ID>
+  <BlastOutput_query-def>DGAT_target</BlastOutput_query-def>
+  <BlastOutput_query-len>451</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_41789</Iteration_query-ID>
+  <Iteration_query-def>DGAT_target</Iteration_query-def>
+  <Iteration_query-len>451</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|XP_022840185.1|</Hit_id>
+  <Hit_def>Diacylglycerol acyltransferase [Ostreococcus tauri] &gt;emb|CEG00074.1| Diacylglycerol acyltransferase [Ostreococcus tauri]</Hit_def>
+  <Hit_accession>XP_022840185</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>917.916</Hsp_bit-score>
+      <Hsp_score>2371</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>451</Hsp_identity>
+      <Hsp_positive>451</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>451</Hsp_align-len>
+      <Hsp_qseq>MDDEPIRRASSPAPGTTRAQERFLEQRRASGLAGAEALATFVEPPGMETRGIDKVAGLIFWILNFYLWYRVIGEAFVPLGAYFTALVWPVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_qseq>
+      <Hsp_hseq>MDDEPIRRASSPAPGTTRAQERFLEQRRASGLAGAEALATFVEPPGMETRGIDKVAGLIFWILNFYLWYRVIGEAFVPLGAYFTALVWPVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_hseq>
+      <Hsp_midline>MDDEPIRRASSPAPGTTRAQERFLEQRRASGLAGAEALATFVEPPGMETRGIDKVAGLIFWILNFYLWYRVIGEAFVPLGAYFTALVWPVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|OUS46221.1|</Hit_id>
+  <Hit_def>acyl-CoA:diacylglycerol acyltransferase [Ostreococcus tauri]</Hit_def>
+  <Hit_accession>OUS46221</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>690.649</Hsp_bit-score>
+      <Hsp_score>1781</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>338</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_qseq>
+      <Hsp_hseq>MIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQMDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_hseq>
+      <Hsp_midline>MIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQ+DDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_001421075.1|</Hit_id>
+  <Hit_def>predicted protein [Ostreococcus lucimarinus CCE9901] &gt;gb|ABO99368.1| predicted protein [Ostreococcus lucimarinus CCE9901]</Hit_def>
+  <Hit_accession>XP_001421075</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567</Hsp_bit-score>
+      <Hsp_score>1460</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>282</Hsp_identity>
+      <Hsp_positive>308</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_qseq>
+      <Hsp_hseq>MIYAWILSAIFVYPAYCVFGPSMWLKNFFLGYIAWYATLDRKTASSGKRFARWSRRLPFWRILAEYFPVRLHVSAKLDPSGNYLFGYHPHGVIGVGALLTFATEATGFYEAFPGLDLRLLTLSMNFKFPFTREVLMGLGINSVTKSSVETNLTRAPGASVAIVIGGASEALDARPGWATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPEGGRLRNFQMYIKQLIGITPPAFYGRSLSRGMWRRIFGRKGVLPKREPIEVVVGNPIAVPKVVDPSNEIIDKYHALYTESLKELYELHRRQFHRLNRGGSSDDLLSDLLTRQGKLQNMQFK</Hsp_hseq>
+      <Hsp_midline>MIYA++LSAIF+YP YCVFG + W++N FLGYI WY  LDR++ SSG RF  WSRRLPFWRILA+YFPVRL+ S +LDP GNYLFGYHPHGVIGVGAL+TFATEATGFYEAFPGLDLRLLTLS+NFKFPFTREVLM LGINSVTK+SV TNLTRAPGASVAIVIGGA+EALDARPG ATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENP+GGRLR FQ YIKQLIGI+PPAFYGRSLSRG+WRRIFGRKGVLPKREPIEV++GNPI VP+V DPS ++IDKYH LYT  LKELYELHRRQFH+LNRGGSSDDLLSDL+ R+  LQ M FK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_002502448.1|</Hit_id>
+  <Hit_def>predicted protein [Micromonas commoda] &gt;gb|ACO63706.1| predicted protein [Micromonas commoda]</Hit_def>
+  <Hit_accession>XP_002502448</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.413</Hsp_bit-score>
+      <Hsp_score>1378</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>443</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>263</Hsp_identity>
+      <Hsp_positive>316</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>AEALATFVEPPGMETRGIDKVAGLIFWILNFYLWYRVIGEAFVPLGAYFTALVWPVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIF-GRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKN</Hsp_qseq>
+      <Hsp_hseq>ADRVAEFVTPERTPEKTPHRAVGLLFWACTAELWRRLLGWYFLPFGLYFASLVHPAFSPSAHR--TQRGQHASQVGLVVMIYAFLLSALLVYPNYFLFCAHPWIRAVFIGYISWYVFVDYATPESGKRFLPWTRRLPFWNKLADYFPVRLHKSCDLDPAGNYLFGYHPHGIIGVGALITFATNATGFEQAFPGLDLRLLTLAINFMFPFTREVLMALGINSVTRASVQRNLTRAPGASVAIVVGGAAEALDARPGWAVLTLARRKGFVKMALKTGASLVPVFAFGENDIFEQMDNPEGSPLRRFQLWMKQLIGVTPPAFYGRSLSGGVLRRMFRSGKGPMPKRESIEVVVGHPIPCPKIAEPTLRQIDEYHALYLSSLKELYDTHRRLFHKLKRAGSHDDLHARMSKMKE</Hsp_hseq>
+      <Hsp_midline>A+ +A FV P     +   +  GL+FW     LW R++G  F+P G YF +LV P F+P   R   +   HA QVG+VVMIYAFLLSA+ +YP Y +F    W+R  F+GYI WYV +D  +  SG RF+ W+RRLPFW  LADYFPVRL+KS +LDP GNYLFGYHPHG+IGVGAL+TFAT ATGF +AFPGLDLRLLTL++NF FPFTREVLMALGINSVT+ASV  NLTRAPGASVAIV+GGAAEALDARPG A LTLARRKGFVKMAL+TGASLVPVFAFGENDIFEQ++NP+G  LR+FQ ++KQLIG++PPAFYGRSLS GV RR+F   KG +PKRE IEV++G+PI  P++ +P+   ID+YH LY   LKELY+ HRR FH+L R GS DDL + + K K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_003056991.1|</Hit_id>
+  <Hit_def>predicted protein [Micromonas pusilla CCMP1545] &gt;gb|EEH58636.1| predicted protein [Micromonas pusilla CCMP1545]</Hit_def>
+  <Hit_accession>XP_003056991</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>525.013</Hsp_bit-score>
+      <Hsp_score>1351</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>450</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>257</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>416</Hsp_align-len>
+      <Hsp_qseq>EALATFVEPPGMETRGIDKVAGLIFWILNFYLWYRVIGEAFVPLGAYFTALVWPVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIF-GRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTF</Hsp_qseq>
+      <Hsp_hseq>DEVAKFVKPDRKPEKIPHKATGLLFWTMVMYAWYQILGLLFIPIGVYFAVLASPAFSPSAK-----FDSHAAQVGIVVMIYAFLVSALIICPVYFVVCAHPYVRLAFVGYVSWYALVDAKTPMNGGRFLPWFRRLPFWATMADYFPVRLHKSVDLDPKGNYLFGYHPHGIIGVGALITFATNATGFEQAFPGLDLRLLTLASNFYLPFTREILLAMGINSVKKESVETNLTRRPGASVAIVVGGAAEALDARPGWAVLTLARRKGFVKLAMKTGASLVPVFAFGENDIFDQVDNPDGSPLRRFQTWTKQLIGVTPPAFYGRSLSRGIMRRIFRSGAGVMPKRESIEVVVGHPIKCPKMAEPSVKQIDEYHQKYISALKELYDTHRRLFHKLKREGSEDDLAA----RMKRMQSLRF</Hsp_hseq>
+      <Hsp_midline>+ +A FV+P     +   K  GL+FW +  Y WY+++G  F+P+G YF  L  P F+P  +       +HA QVGIVVMIYAFL+SA+ I P Y V     ++R AF+GY+ WY L+D ++  +G RF+ W RRLPFW  +ADYFPVRL+KS +LDPKGNYLFGYHPHG+IGVGAL+TFAT ATGF +AFPGLDLRLLTL+ NF  PFTRE+L+A+GINSV K SV TNLTR PGASVAIV+GGAAEALDARPG A LTLARRKGFVK+A++TGASLVPVFAFGENDIF+QV+NPDG  LR+FQT+ KQLIG++PPAFYGRSLSRG+ RRIF    GV+PKRE IEV++G+PI  P++ +PS   ID+YHQ Y   LKELY+ HRR FH+L R GS DDL +    R   +Q++ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|XP_007508328.1|</Hit_id>
+  <Hit_def>predicted protein [Bathycoccus prasinos] &gt;emb|CCO20432.1| predicted protein [Bathycoccus prasinos]</Hit_def>
+  <Hit_accession>XP_007508328</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>9.83644e-161</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>451</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>246</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>AGLIFWILNFYLWYRVIGEAFVPLGAYFTALVWPVFAPRGR---------------------RRDDRAAA----------HAEQVGIVVMIYAFLLSAI-FIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAP--------GASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHV---PQVDDPSP-DVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLIKRKNNLQAMTFK</Hsp_qseq>
+      <Hsp_hseq>SGALFWAMTFYCWYKVIGYFFVPLGIYFTSLVSPAFVRTKQKGVRETVIEESSGSTHLSAFAKREENAAKSVNEDVYRREHAEQVGIVVAMYAFLISAIFIFPPFFLFFAPFEWIKYLFLFYVAWYFVLDRDACEKGTRFLGWTRRLPFWRLAAGYFPVRLHKSADLDPSKNYIFGYHPHGVISVGALLTFASEATGFANAFPGIDVRLLTLSVNFFFPFTREVLMALGINSVTRSSVEKNLLRVKSSAAKKPRGNAVVIVVGGANEAMDAHPGTAILTLAKRKGFVRLALKTGATLVPVFAFGENDIFDQVENPEGGVLRAFQKRVKSLIGITPPAFYGRSLSRGVLRRFFGKRGVLPKRQSIEVVFGKPLEIKEKPYGNDQIPEDIVDKYHKEYVNALRNLYELHRKSFHRMKRTDSFEDFAS----RQKKMQPIRFK</Hsp_hseq>
+      <Hsp_midline>+G +FW + FY WY+VIG  FVPLG YFT+LV P F    +                     +R++ AA           HAEQVGIVV +YAFL+SAI    P +  F    W++  FL Y+ WY +LDR +   GTRF+ W+RRLPFWR+ A YFPVRL+KS +LDP  NY+FGYHPHGVI VGAL+TFA+EATGF  AFPG+D+RLLTLSVNF FPFTREVLMALGINSVT++SV  NL R          G +V IV+GGA EA+DA PG+A LTLA+RKGFV++AL+TGA+LVPVFAFGENDIF+QVENP+GG LR FQ  +K LIGI+PPAFYGRSLSRGV RR FG++GVLPKR+ IEV+ G P+ +   P  +D  P D++DKYH+ Y   L+ LYELHR+ FH++ R  S +D  S    R+  +Q + FK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_027046098.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-like [Pocillopora damicornis] &gt;gb|RMX44282.1| hypothetical protein pdam_00019166 [Pocillopora damicornis]</Hit_def>
+  <Hit_accession>XP_027046098</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.694</Hsp_bit-score>
+      <Hsp_score>805</Hsp_score>
+      <Hsp_evalue>5.41605e-101</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>IVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>VMIQVYMFLFGHIFGTVLLVVLLFIPYTTFVAVVYVGWAFILNVRTPSRGGRTIKVARRWKMWKYFCEYFPIRLVKTADLDPEGNYIFGYHPHGIIGLGALGNFCGEATGFSVNFPGIHPHLLTLSVNFRFPFSRDYCMAFGVCSVDKDSIEYILQKMGPGHSVAIVVGGAAESLEARPGNFTLTLKHRKGFVKLALRSGASLVPVFSFGENNLYDQVSNPPGSALRQWQTKMKDLMGFAPPLFHG----RGVFQYTF---GLLPHRQPIHTVFGAPIKVKKTQSPSPEEIDKIHQQYITALEELFEKHKKNY</Hsp_hseq>
+      <Hsp_midline>+++ +Y FL   IF      V     +     + Y+GW  +L+ R+ S G R +  +RR   W+   +YFP+RL K+ +LDP+GNY+FGYHPHG+IG+GAL  F  EATGF   FPG+   LLTLSVNF+FPF+R+  MA G+ SV K S+   L +  PG SVAIV+GGAAE+L+ARPG+ TLTL  RKGFVK+ALR+GASLVPVF+FGEN++++QV NP G  LR++QT +K L+G +PP F+G    RGV++  F   G+LP R+PI  + G PI V +   PSP+ IDK HQ Y   L+EL+E H++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_022802784.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-like [Stylophora pistillata] &gt;gb|PFX17896.1| 2-acylglycerol O-acyltransferase 2 [Stylophora pistillata]</Hit_def>
+  <Hit_accession>XP_022802784</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.056</Hsp_bit-score>
+      <Hsp_score>767</Hsp_score>
+      <Hsp_evalue>3.0434e-95</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>IVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>VMIQVYMFLFGHIFGTVLLVVLLFIPYTTFVAVVYIGWAFILNIQTPSRGGRTIQVARKWKMWKYFCEYFPISLVKTADLDPEGNYIFGYHPHGIIGLGALGNFCGEATGFSENFPGINPHLLTLSINFRFPFSRDYCMAFGVCSVDKDSIEYILQKMGPGHSVAIVIGGAAESLEARPDNFKLTLKDRKGFIKLALRSGASLVPVFSFGENNLYHQVSNPPGSALRQWQTKMKDLMGFAPPLFHG----RGVFQYTY---GLLPHRQPIYTVFGAPIKVKKTQNPLPEEVDAIHQQYITALEELFDKHKKNY</Hsp_hseq>
+      <Hsp_midline>+++ +Y FL   IF      V     +     + YIGW  +L+ ++ S G R +  +R+   W+   +YFP+ L K+ +LDP+GNY+FGYHPHG+IG+GAL  F  EATGF E FPG++  LLTLS+NF+FPF+R+  MA G+ SV K S+   L +  PG SVAIVIGGAAE+L+ARP +  LTL  RKGF+K+ALR+GASLVPVF+FGEN+++ QV NP G  LR++QT +K L+G +PP F+G    RGV++  +   G+LP R+PI  + G PI V +  +P P+ +D  HQ Y   L+EL++ H++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_020609628.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-like [Orbicella faveolata]</Hit_def>
+  <Hit_accession>XP_020609628</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>1.43102e-94</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>436</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>EQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLS</Hsp_qseq>
+      <Hsp_hseq>QTLAVMTLVYAFLFGHIFGTCLLLLLLLNPYTTIFAILYIGWAYILNPRTPSRGGRTFEAARRWKIWKYYCDYFPMYLIKTADLDPKDNYIFACHPHGIMGLGALGNFGGEATGFSEKFPGIHPHLLTLTMNFRFPFTRDFSMAFGACSVDKDSIEYILQKMGPGHSAAIVIGGAAESLEARPDNFKLTLKERKGFVKVALRNGASLVPVFSFGENDLYDQVSNPHGSALRQWQTKMKDLMGFAPPLFRG----RGVFQYTF---GLLPHRRPIHTVIGAPIKVDKVNNPSPEEIEKFHLQYVKALEELFEKHKK-----NYGISEDKHLE</Hsp_hseq>
+      <Hsp_midline>+ + ++ ++YAFL   IF      +     +     + YIGW  +L+ R+ S G R    +RR   W+   DYFP+ L K+ +LDPK NY+F  HPHG++G+GAL  F  EATGF E FPG+   LLTL++NF+FPFTR+  MA G  SV K S+   L +  PG S AIVIGGAAE+L+ARP +  LTL  RKGFVK+ALR GASLVPVF+FGEND+++QV NP G  LR++QT +K L+G +PP F G    RGV++  F   G+LP R PI  +IG PI V +V++PSP+ I+K+H  Y   L+EL+E H++     N G S D  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KYQ93987.1|</Hit_id>
+  <Hit_def>diacylglycerol O-acyltransferase 2 [Tieghemostelium lacteum]</Hit_def>
+  <Hit_accession>KYQ93987</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>5.81356e-92</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>425</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQL</Hsp_qseq>
+      <Hsp_hseq>YLIWIIYWDKRHETGGYKW-KFVRNLKLWKYFKDYFPISLRASSKLDPEKNYIFGIHPHGIISIGAFCNFGTNANGIDHAFPGVNIHLLTLDSNFRIPFLREILLSLGIGSVSKKSCTNILNSGKGQSICIVIGGAEESLDAHPGNNEITLKNRKGFVKLALNNGASLVPVYSFGENDVYDQVSNPRGSYIRRIQTKIKNITGIAPPLIRG----RGVFSYDF---GLLPQRHPIVSVIGSPIDIPKVNNPSEELIDHYHKLYIDSLNELFENYKKEFHEI</Hsp_hseq>
+      <Hsp_midline>Y+ W +  D+R ++ G ++  + R L  W+   DYFP+ L  S +LDP+ NY+FG HPHG+I +GA   F T A G   AFPG+++ LLTL  NF+ PF RE+L++LGI SV+K S    L    G S+ IVIGGA E+LDA PG+  +TL  RKGFVK+AL  GASLVPV++FGEND+++QV NP G  +R+ QT IK + GI+PP   G    RGV+   F   G+LP+R PI  +IG+PI +P+V++PS ++ID YH+LY   L EL+E ++++FH++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_020909329.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-A [Exaiptasia pallida]</Hit_def>
+  <Hit_accession>XP_020909329</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>1.33387e-88</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>ALVW-PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNL-TRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDLI</Hsp_qseq>
+      <Hsp_hseq>AINWAPVNIPLERR--------FQTLAVMLIVHSFLFGHIFGCLLFLVLLIFPITTTIALLYFGWTYILNYNLPSRGGRLVQWCRNHKMWKYFCGFFPIDLIKTADLDPNDNYIFGYHPHGIMGLGAIGNFCGNGTGFSTKFPGITPHLLTLAGNLRFPVTRDYIMSFGVCTVEKSSIEYILKKKGSGQAVVIVVGGASESLDAHPGNYRLTLKNRKGFVKIALRNGANLVPVYSFGENDLYTQVKNPSGSQLRQWQTKVKDIVGFAPPIFHG----RGIFQYTF---GILPHRRPVNTVVGAPIKVNKVENPSDEQIDXFHQLYLKGLEKVFEDHKIKY------GLSEDIHLEFV</Hsp_hseq>
+      <Hsp_midline>A+ W PV  P  RR         + + +++++++FL   IF    + V           L Y GW  +L+    S G R V W R    W+    +FP+ L K+ +LDP  NY+FGYHPHG++G+GA+  F    TGF   FPG+   LLTL+ N +FP TR+ +M+ G+ +V K+S+   L  +  G +V IV+GGA+E+LDA PG+  LTL  RKGFVK+ALR GA+LVPV++FGEND++ QV+NP G +LR++QT +K ++G +PP F+G    RG+++  F   G+LP R P+  ++G PI V +V++PS + ID +HQLY  GL++++E H+ ++      G S+D+  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_031551026.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-like [Actinia tenebrosa]</Hit_def>
+  <Hit_accession>XP_031551026</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>4.3541e-86</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAF-LGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>PVNIPLKRR--------IQTLAVILIVHSFLFGHI-IGCTFLFFLLIIPFTTLFALLYLGWTYVINYNQPSRGGRIISWFRHIRIWKYFCEYFPIELIRTQELDPRENYIFGSHPHGIMSLGTIGNFCGEGTGFSEKFPGITPHILTLAGNLSFPFTRDYYMSFGVCTVEKESIEHILQKMGKGHAVVIVIGGAAESLEAHPGNFKLTLKNRKGFVRIALRNGASLVPVYSFGENDLYTQVNNPNGSPLRNWQTKMKNFMGFAPPIFHG----RGIFQYTF---GILPHRKPINTVVGAPIKVPKVQNPTEEEINKFHAEYIKGLDDIFENHKLKY</Hsp_hseq>
+      <Hsp_midline>PV  P  RR         + + +++++++FL   I I  T+  F         F L Y+GW  +++    S G R ++W R +  W+   +YFP+ L ++ ELDP+ NY+FG HPHG++ +G +  F  E TGF E FPG+   +LTL+ N  FPFTR+  M+ G+ +V K S+   L +   G +V IVIGGAAE+L+A PG+  LTL  RKGFV++ALR GASLVPV++FGEND++ QV NP+G  LR +QT +K  +G +PP F+G    RG+++  F   G+LP R+PI  ++G PI VP+V +P+ + I+K+H  Y  GL +++E H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KXJ24722.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-A [Exaiptasia pallida]</Hit_def>
+  <Hit_accession>KXJ24722</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>5.06891e-86</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>ALVW-PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNL-TRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHR</Hsp_qseq>
+      <Hsp_hseq>AINWAPVNIPLERR--------FQTLAVMLIVHSFLFGHIFGCLLFLVLLIFPITTTIALLYFGWTYILNYNLPSRGGRLVQWCRNHKMWKYFCGFFPIDLIKTADLDPNDNYIFGYHPHGIMGLGAIGNFCGNGTGFSTKFPGITPHLLTLAGNLRFPVTRDYIMSFGVCTVEKSSIEYILKKKGSGQAVVIVVGGASESLDAHPGNYRLTLKNRKGFVKIALRNGANLVPVYSFGENDLYTQVKNPSGSQLRQWQTKVKDIVGFAPPIFHG----RGIFQYTF---GILPHRRPVNTVVGAPIKVNKVENPSDEQIDXFHQLYLKGLEKVFEDHK</Hsp_hseq>
+      <Hsp_midline>A+ W PV  P  RR         + + +++++++FL   IF    + V           L Y GW  +L+    S G R V W R    W+    +FP+ L K+ +LDP  NY+FGYHPHG++G+GA+  F    TGF   FPG+   LLTL+ N +FP TR+ +M+ G+ +V K+S+   L  +  G +V IV+GGA+E+LDA PG+  LTL  RKGFVK+ALR GA+LVPV++FGEND++ QV+NP G +LR++QT +K ++G +PP F+G    RG+++  F   G+LP R P+  ++G PI V +V++PS + ID +HQLY  GL++++E H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_003293487.1|</Hit_id>
+  <Hit_def>monoacylglycerol O-acyltransferase [Dictyostelium purpureum] &gt;gb|EGC29984.1| monoacylglycerol O-acyltransferase [Dictyostelium purpureum]</Hit_def>
+  <Hit_accession>XP_003293487</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>2.6302e-85</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>IVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQ</Hsp_qseq>
+      <Hsp_hseq>MAVFIYAMVLPVCLIMAFNLLVIPLFW--GLAVPYLIWIFYIDTKQEKGGRR-LDWVRNSILWRYFRDYFPISLVVSSKYDPKKNYIFAYHPHGIISIGAFCNFATNANHIDQKFPGLKIHLLTLESNFKIPFLREVLMSFGMSSVAKKSCENILNSGPGSSICLVVGGAEESLDARPGLNELTLKKRKGFVKLALVNGASLVPVYSFGENDIYDQVPNPRGSLIRKVQTKIKNLTGIAPPLIMG----RGIFNYDF---GFLPVRHKITTVVGEAIDIPKVTNPTNEVIDHYHEVYVEALQKLFDKYKDKIDK</Hsp_hseq>
+      <Hsp_midline>+ V IYA +L    I     +     W     + Y+ W   +D + +  G R + W R    WR   DYFP+ L  S + DPK NY+F YHPHG+I +GA   FAT A    + FPGL + LLTL  NFK PF REVLM+ G++SV K S    L   PG+S+ +V+GGA E+LDARPG   LTL +RKGFVK+AL  GASLVPV++FGENDI++QV NP G  +RK QT IK L GI+PP   G    RG++   F   G LP R  I  ++G  I +P+V +P+ +VID YH++Y   L++L++ ++ +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_635762.1|</Hit_id>
+  <Hit_def>diacylglycerol O-acyltransferase 2 [Dictyostelium discoideum AX4] &gt;sp|Q54GC1.1| RecName: Full=Diacylglycerol O-acyltransferase 2; AltName: Full=Diglyceride acyltransferase 2 [Dictyostelium discoideum] &gt;gb|EAL62266.1| diacylglycerol O-acyltransferase 2 [Dictyostelium discoideum AX4]</Hit_def>
+  <Hit_accession>XP_635762</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>3.52028e-85</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>421</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQ</Hsp_qseq>
+      <Hsp_hseq>PWNVPLYRRLETMAVAIYAMVLPVCLIMAFNLIVIPLF-----WGIA-------IPYLVWMFYFDTKHESGGRR-VSLVRNSILWRYFRDYFPISLIINSNYDPKKNYIFAYHPHGIISIGAFCNFATNANNIDEKLPGLKVHLLTLESNFKIPFLRDVLMSFGMSSVSKKSCENILNSGAGESICLVVGGAEESLDARPGLNEITLKKRKGFIKLALVNGASLVPVYSFGENDIYDQVPNPRGSLVRKIQTKIKDLTGIAPPLFMG----RGIFNYDF---GLLPVRHKIVTVVGEPIDIPKIKSPTDQVIEHYHQIYVEALQNLFDKHKNS</Hsp_hseq>
+      <Hsp_midline>P   P  RR +  A A    V  V +I AF L  I ++     +G A       + Y+ W    D + +S G R V+  R    WR   DYFP+ L  +   DPK NY+F YHPHG+I +GA   FAT A    E  PGL + LLTL  NFK PF R+VLM+ G++SV+K S    L    G S+ +V+GGA E+LDARPG   +TL +RKGF+K+AL  GASLVPV++FGENDI++QV NP G  +RK QT IK L GI+PP F G    RG++   F   G+LP R  I  ++G PI +P++  P+  VI+ YHQ+Y   L+ L++ H+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_006683118.1|</Hit_id>
+  <Hit_def>hypothetical protein BATDEDRAFT_92838 [Batrachochytrium dendrobatidis JAM81] &gt;gb|EGF76324.1| hypothetical protein BATDEDRAFT_92838 [Batrachochytrium dendrobatidis JAM81]</Hit_def>
+  <Hit_accession>XP_006683118</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.322</Hsp_bit-score>
+      <Hsp_score>695</Hsp_score>
+      <Hsp_evalue>2.27208e-84</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>LGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>LGYIV-YIMLDS-TPQQGGRKVMWLRRLSLWKWLADFFPISLVKTVDLDPKKNYVFGYHPHGIISLGAWSNFATEATHFSQEFKGIDLRLMTLAANFRMPFFREIILHLGICSASRESCDYVLKQGQGNAIMIVVGGAAEALNAHPGTCDLVLVKRFGFVKVALRAGACLVPVFSFGENDIWDQVSTPKDSFIRKYQKWFQKIASFSPPLLHG----RGIFTY---NMGILPYRRRIVSVVGKPIQCPKIDNPTLEETQTFHKLYMEGLQELYNTHKDTY</Hsp_hseq>
+      <Hsp_midline>LGYI  Y++LD  +   G R V W RRL  W+ LAD+FP+ L K+ +LDPK NY+FGYHPHG+I +GA   FATEAT F + F G+DLRL+TL+ NF+ PF RE+++ LGI S ++ S    L +  G ++ IV+GGAAEAL+A PG+  L L +R GFVK+ALR GA LVPVF+FGENDI++QV  P    +RK+Q + +++   SPP  +G    RG++       G+LP R  I  ++G PI  P++D+P+ +    +H+LY  GL+ELY  H+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|RKP22642.1|</Hit_id>
+  <Hit_def>diacylglycerol acyltransferase [Syncephalis pseudoplumigaleata]</Hit_def>
+  <Hit_accession>RKP22642</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>4.30595e-84</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>YCVFGHATW-MRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHR</Hsp_qseq>
+      <Hsp_hseq>YCLWHASMWPLVTAYLTYLYFDVAPDH-----GGRKIDWMRRLVVWRWFADYFPMRLHREVILDPKRNYIFGYHPHGIISMGAFANFATEANSISELLPGIDCRLMTLASNFNIPFYRDFLLSLNITSVSRKSIQRILDKGPGHSCMIVIGGAAESLNAHPGTNDLTLKKRLGFIKLAIRNGADLVPVFSFGENDIYDQVNNEQGTMVRTFQTRFQSIFGFTTPLFHG----RGIFNYTM---GVLPHRRPINTVIGRPIRVEQCDDPSMEQVLALQQQYIDGLQAVYNKYK</Hsp_hseq>
+      <Hsp_midline>YC++  + W +  A+L Y+ + V  D      G R + W RRL  WR  ADYFP+RL++   LDPK NY+FGYHPHG+I +GA   FATEA    E  PG+D RL+TL+ NF  PF R+ L++L I SV++ S+   L + PG S  IVIGGAAE+L+A PG+  LTL +R GF+K+A+R GA LVPVF+FGENDI++QV N  G  +R FQT  + + G + P F+G    RG++       GVLP R PI  +IG PI V Q DDPS + +    Q Y  GL+ +Y  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_001633322.1|</Hit_id>
+  <Hit_def>predicted protein [Nematostella vectensis] &gt;gb|EDO41259.1| predicted protein [Nematostella vectensis]</Hit_def>
+  <Hit_accession>XP_001633322</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>5.59656e-84</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>YLGWTYVVNYNKPSRGGRIIPWCRRLKMWKYFCEFFPISLIKTADLDPQKNYIICYHPHGIMSLGALGNFCSEATGFSEKFPGITPHILTLAGNMKFPVTRDYMMAFGVCTVEKESIHHIMERMGKGHAAVIVTGGAAESLDAHPGSFKITLKERKGFVKIAMKTGASLVPVFSFGENELYSQVDNPRGSSIRQWQTKMKNLMGFAPPLFYG----RGIFQYTY---GILPHRRPINTVVGAPITVERNPQPSWEQVCELHKQYVTALCELFDKHKIKY</Hsp_hseq>
+      <Hsp_midline>Y+GW  +++    S G R + W RRL  W+   ++FP+ L K+ +LDP+ NY+  YHPHG++ +GAL  F +EATGF E FPG+   +LTL+ N KFP TR+ +MA G+ +V K S+   + R   G +  IV GGAAE+LDA PGS  +TL  RKGFVK+A++TGASLVPVF+FGEN+++ QV+NP G  +R++QT +K L+G +PP FYG    RG+++  +   G+LP R PI  ++G PI V +   PS + + + H+ Y   L EL++ H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|ELT95074.1|</Hit_id>
+  <Hit_def>hypothetical protein CAPTEDRAFT_226963 [Capitella teleta]</Hit_def>
+  <Hit_accession>ELT95074</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>4.2273e-83</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>287</Hsp_align-len>
+      <Hsp_qseq>WMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>WM---VLVYSAWYAYDWKRQDRGG-RFSPWVRGWKVWKHFANFFPIKLVKTAELDPSKNYIFGYHPHGIMAFGAFNNFATEGTGFSRMFPGIKPRLLILAGQFLFPFHREYVMTSGCCSVSRESIDWNLTKEGPGNALVLIIGGAAEALEARKDSFVLKLNTRRGFVKMALKYGASLVPVFSFGENDLFDQMSNPEGSRIRSLQAKMTKLLGFSMPLFHG----RGVFNYSF---GILPFRKPINTIVGGPIHVEKNSSPSQEEIDLLHSRYISSLKDLFERHKAEY</Hsp_hseq>
+      <Hsp_midline>WM    L Y  WY    +R D  G RF  W R    W+  A++FP++L K+ ELDP  NY+FGYHPHG++  GA   FATE TGF   FPG+  RLL L+  F FPF RE +M  G  SV++ S+  NLT+  PG ++ ++IGGAAEAL+AR  S  L L  R+GFVKMAL+ GASLVPVF+FGEND+F+Q+ NP+G R+R  Q  + +L+G S P F+G    RGV+   F   G+LP R+PI  I+G PIHV +   PS + ID  H  Y   LK+L+E H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|TPX65402.1|</Hit_id>
+  <Hit_def>hypothetical protein SpCBS45565_g05190 [Spizellomyces sp. &apos;palustris&apos;]</Hit_def>
+  <Hit_accession>TPX65402</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>4.92736e-83</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>SDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>SPDTGSRRIMLVRKLPFWRWIKDYFPIGLVKTTDLDPSKNYLFGYHPHGIIGIGAWTNFATEASDFAGKFPGINLRLMTLQTNFHLPLWREVLLSLGISSVSRRSCDNILNKGPGHSCMIVVGGATESLQAFPYTADLTIKKRLGFIKVALRNGANLVPVFSFGENDIWDQVPNPPGSMVRTIQVLFQRYMTFAPPLFFGRGIFQ-------YNVGIMPYRRPVISVVGKPIECPKIENPSTEVILEYQKLYLDGLQAVWDEHKDKY</Hsp_hseq>
+      <Hsp_midline>S  +G+R +   R+LPFWR + DYFP+ L K+ +LDP  NYLFGYHPHG+IG+GA   FATEA+ F   FPG++LRL+TL  NF  P  REVL++LGI+SV++ S    L + PG S  IV+GGA E+L A P +A LT+ +R GF+K+ALR GA+LVPVF+FGENDI++QV NP G  +R  Q   ++ +  +PP F+GR + +          G++P R P+  ++G PI  P++++PS +VI +Y +LY  GL+ +++ H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|XP_004346861.1|</Hit_id>
+  <Hit_def>diacylglycerol acyltransferase type 2A [Capsaspora owczarzaki ATCC 30864] &gt;gb|KJE94544.1| diacylglycerol acyltransferase type 2A [Capsaspora owczarzaki ATCC 30864]</Hit_def>
+  <Hit_accession>XP_004346861</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>1.26398e-82</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGT-RFVAWSR--RLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>YLLWMHLVDHRTAKNGVGRKSQWLRSARFPFG-FLRAYFPARLIKTAELNPQKNYIFGYHPHGIIGLGACINFGTEASNVSKLFPGIDTRVLTLGVNFKIPFYRDYLMALNFADVGKTSIRNILSKGPGSSCLIVVGGAAEALDARPGVADLTLANRKGFVREAIINNACLVPVFSFGENDVYSQAANPPGSRVRRFQNFIKEALGFTLPFVIG----RGVFNYTF---GLLPHRRPIVTVVGTPIEVPHILSPTEKDVDEIHARYVAALKDLYDQYKDEY</Hsp_hseq>
+      <Hsp_midline>Y+ W  L+D R+  +G  R   W R  R PF   L  YFP RL K+ EL+P+ NY+FGYHPHG+IG+GA + F TEA+   + FPG+D R+LTL VNFK PF R+ LMAL    V K S+   L++ PG+S  IV+GGAAEALDARPG A LTLA RKGFV+ A+   A LVPVF+FGEND++ Q  NP G R+R+FQ +IK+ +G + P   G    RGV+   F   G+LP R PI  ++G PI VP +  P+   +D+ H  Y   LK+LY+ ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|XP_004350878.1|</Hit_id>
+  <Hit_def>diacylglycerol O-acyltransferase 2 [Cavenderia fasciculata] &gt;gb|EGG14170.1| diacylglycerol O-acyltransferase 2 [Cavenderia fasciculata]</Hit_def>
+  <Hit_accession>XP_004350878</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>1.46605e-82</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>VMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDL</Hsp_qseq>
+      <Hsp_hseq>VLVYALITPFTLLAAFYAIVIPIFWFFT--IPYLIWMIYYDKTWEHGGKR-LEWVRNLRIWSFFRDYFPVSLVASSKLDPKKNYIFGYHPHGIISLGAFCNFATNANGVDQKFPGLTIHPLTLESNFKLPFFRDVLMSFGMSSVSRKGCDNILSSGPGKSIMIVVGGAAESLDAHPGNNELYLKRRKGFVRLALSHGAGLVPMYSFGENDVFDQVSNPRGSFLRRLQQKILQISGIAPPLFNG----RGIFTYDF---GLLPHRHKIVTVVGDALEVPRISNPSDEVVDFYHQAYIDSLTVLFNKYKDDF-----GSPTDEL</Hsp_hseq>
+      <Hsp_midline>V++YA +     +   Y +     W     + Y+ W +  D+  +  G R + W R L  W    DYFPV L  S +LDPK NY+FGYHPHG+I +GA   FAT A G  + FPGL +  LTL  NFK PF R+VLM+ G++SV++      L+  PG S+ IV+GGAAE+LDA PG+  L L RRKGFV++AL  GA LVP+++FGEND+F+QV NP G  LR+ Q  I Q+ GI+PP F G    RG++   F   G+LP R  I  ++G+ + VP++ +PS +V+D YHQ Y   L  L+  ++  F     G  +D+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|OON07085.1|</Hit_id>
+  <Hit_def>hypothetical protein BSLG_03383 [Batrachochytrium salamandrivorans]</Hit_def>
+  <Hit_accession>OON07085</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.314</Hsp_bit-score>
+      <Hsp_score>682</Hsp_score>
+      <Hsp_evalue>1.93861e-82</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>YVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHR</Hsp_qseq>
+      <Hsp_hseq>YMMLDR-SSVTGGRKVMWFRRLSLWKWLGDFFPVALIKTVDLDPTKNYVFGYHPHGIISLGAWTNFATEANGFSELFKGIDLRLMTLATNFKMPFFREIIIHLGICCASRESCDYILKEGQGNAIMIVVGGAAESLNATPGTNDLVLTKRFGFVKVALRAGASLVPVMSFGENDLWDQVPNPKGSLLRGFQNWFQKLASFSPPLLHG----RGIFTY---NMGILPYRRRIVSVVGTPIPVPKVENPTPEQVQLYHKQYIEGLESIYNTYK</Hsp_hseq>
+      <Hsp_midline>Y++LDR S  +G R V W RRL  W+ L D+FPV L K+ +LDP  NY+FGYHPHG+I +GA   FATEA GF E F G+DLRL+TL+ NFK PF RE+++ LGI   ++ S    L    G ++ IV+GGAAE+L+A PG+  L L +R GFVK+ALR GASLVPV +FGEND+++QV NP G  LR FQ + ++L   SPP  +G    RG++       G+LP R  I  ++G PI VP+V++P+P+ +  YH+ Y  GL+ +Y  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|XP_031568896.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-A-like [Actinia tenebrosa]</Hit_def>
+  <Hit_accession>XP_031568896</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>4.14087e-82</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLT-RAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>PISIPLHRRLETAAVALYYYSFFFGALIGFLIIIGLLY---------TWLYPVALLYLAWAYLFDSGTPSHGGRRSAFMRKLRVWKYFRDYFPISLIKTAELDPQKNYILGYHPHGILCAGAFCNFATEATDFSEVFPGITPHLLPLMALFRPPLFRDYIMSSGMCNVTRESCEYILTEKGPGNSIVIVVGGATESLDAHPGLNILTLKKRYGFIKLALKTGSSLVPIYAFGENDVFNQVSNPRGSMLRKIQTKIQKTVAFAPVLFYG----RGIFQYTF---GMLPHRKPINVVVGAPIDVTKNEDPTKDEIQELHDKYEEKLIELFEENKLKY</Hsp_hseq>
+      <Hsp_midline>P+  P  RR +  A A          +  FL+    +Y         TW+    L Y+ W  L D  + S G R  A+ R+L  W+   DYFP+ L K+ ELDP+ NY+ GYHPHG++  GA   FATEAT F E FPG+   LL L   F+ P  R+ +M+ G+ +VT+ S    LT + PG S+ IV+GGA E+LDA PG   LTL +R GF+K+AL+TG+SLVP++AFGEND+F QV NP G  LRK QT I++ +  +P  FYG    RG+++  F   G+LP R+PI V++G PI V + +DP+ D I + H  Y   L EL+E ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|RKP03682.1|</Hit_id>
+  <Hit_def>hypothetical protein CXG81DRAFT_29194 [Caulochytrium protostelioides]</Hit_def>
+  <Hit_accession>RKP03682</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>4.44261e-82</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIF-IYPTYCVFGHATWMRNAFLGYIGWYV---LLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>PLHVPFPRRRQTAAV-----VVWIVLIPASLLAFILALFDPRC------------LPYVIAYVVFMILDPTAETGG-RAVQWVRRLSFWKWQAGYFPISLVKTCDLDPSKNYVFGYHPHGIVSLGAWINFATEANHVSDFFPGLRIRLLTLSSNFHVPFWRELLLSLGLASVSRRSCDNILSQGPGNSCMIVVGGAAEALNAFPYTQDLVIKRRLGFIKLAIRRGASLVPCYSFGENDLWDQVPNPEGSLLRKFQHLMQKYTTISPPLFHG----RGVWNY---NIGIVPFRRPVTTVVGAPIHCVKTSHPSNEMVLEYQQRYMAALEDLWHTYKDKY</Hsp_hseq>
+      <Hsp_midline>P+  P  RRR   A      V  +V+I A LL+ I  ++   C            L Y+  YV   +LD  +++ G R V W RRL FW+  A YFP+ L K+ +LDP  NY+FGYHPHG++ +GA + FATEA    + FPGL +RLLTLS NF  PF RE+L++LG+ SV++ S    L++ PG S  IV+GGAAEAL+A P +  L + RR GF+K+A+R GASLVP ++FGEND+++QV NP+G  LRKFQ  +++   ISPP F+G    RGVW       G++P R P+  ++G PIH  +   PS +++ +Y Q Y   L++L+  ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|RKO97103.1|</Hit_id>
+  <Hit_def>diacylglycerol acyltransferase [Caulochytrium protostelioides] &gt;gb|RKP01974.1| hypothetical protein CXG81DRAFT_11356 [Caulochytrium protostelioides]</Hit_def>
+  <Hit_accession>RKO97103</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.618</Hsp_bit-score>
+      <Hsp_score>675</Hsp_score>
+      <Hsp_evalue>2.23456e-81</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>APRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>APRRQRRQTTA----------VVIWILLIPACV--GVFCLALMHRYLMPLMVLYLV-FVALDATPETGG-RQLPWVRQWRLWKWQRSYFPIRLVKTCELDPSKNYIFGYHPHGIISLGAWINFATEANDFSRLFPGITVRLLTIASNFRVPFFRELLLSLGLASVSRRSCDNILSMGPGHSCLIVVGGAAEALMAFPYTNDLILRRRHGFIRLALRRGASLVPCYSFGENDLWDQVPNPEGSWLRAWQRFMQKYTTVSPPLFFGRGVGS-------TRFGIVPFRRPVTTVVGAPIPCVQTADPAPELVQAYHQRYTEALQALWEQHHPQY</Hsp_hseq>
+      <Hsp_midline>APR +RR   A          V+I+  L+ A      +C+     ++    + Y+  +V LD   ++ G R + W R+   W+    YFP+RL K+ ELDP  NY+FGYHPHG+I +GA + FATEA  F   FPG+ +RLLT++ NF+ PF RE+L++LG+ SV++ S    L+  PG S  IV+GGAAEAL A P +  L L RR GF+++ALR GASLVP ++FGEND+++QV NP+G  LR +Q ++++   +SPP F+GR +          R G++P R P+  ++G PI   Q  DP+P+++  YHQ YT  L+ L+E H  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|XP_020602679.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 1-like [Orbicella faveolata]</Hit_def>
+  <Hit_accession>XP_020602679</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>2.73079e-81</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLT-RAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>YLSWAYLIDGRTPDHGGRRSNFVRRLRVWKYFRDYFPIKLIKTEELEPSKNYIFGYHPHGILCSGAFCNFATEATDFSGIFPGITPHLLPLMALFKPPLFRDYIMSSGMCNVTRESCEYILTEKGPGNSVVIVVGGAEEAFDAHPGTYTLILKPRKGFIKLALRTGASLVPVFAFGENDLFNQVSNPRGSRLRDIQLKIQKKVAFAPVLFHG----RGIFQYTF---GLLPHRKPVNVVVGAPIPVTKVEKPTPEQLDDLHATYTEKLKQLFEDNKAKY</Hsp_hseq>
+      <Hsp_midline>Y+ W  L+D R+   G R   + RRL  W+   DYFP++L K+ EL+P  NY+FGYHPHG++  GA   FATEAT F   FPG+   LL L   FK P  R+ +M+ G+ +VT+ S    LT + PG SV IV+GGA EA DA PG+ TL L  RKGF+K+ALRTGASLVPVFAFGEND+F QV NP G RLR  Q  I++ +  +P  F+G    RG+++  F   G+LP R+P+ V++G PI V +V+ P+P+ +D  H  YT  LK+L+E ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|XP_022791455.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 1-like [Stylophora pistillata] &gt;gb|PFX34007.1| 2-acylglycerol O-acyltransferase 1 [Stylophora pistillata]</Hit_def>
+  <Hit_accession>XP_022791455</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>3.49892e-81</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLT-RAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFH</Hsp_qseq>
+      <Hsp_hseq>YITWAYLIDGRTPDHGGRRSEFVRKARVWKYFRDYFPIKLIKTTELDPSKNYVFGYHPHGVLCAGAFCNFATEATNFSGTFPGITPHLLPLMALFKPPLFRDYIMSSGMCNVTRESCEYILTKKGPGNSVVIVVGGAEEAFDAHPDTYTLILKPRKGFIKLALRTGASLVPVFAFGENDLFNQVKNPRGSKLRDIQQKIQKMVAFAPVLFFG----RGIFQYTF---GFLPHRRPVNVVVGPPIPVTKVANPTPDHLDDLHTIYIEKLKQLFEENKTKYN</Hsp_hseq>
+      <Hsp_midline>YI W  L+D R+   G R   + R+   W+   DYFP++L K+ ELDP  NY+FGYHPHGV+  GA   FATEAT F   FPG+   LL L   FK P  R+ +M+ G+ +VT+ S    LT + PG SV IV+GGA EA DA P + TL L  RKGF+K+ALRTGASLVPVFAFGEND+F QV+NP G +LR  Q  I++++  +P  F+G    RG+++  F   G LP R P+ V++G PI V +V +P+PD +D  H +Y   LK+L+E ++ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_016611915.1|</Hit_id>
+  <Hit_def>hypothetical protein SPPG_01328 [Spizellomyces punctatus DAOM BR117] &gt;gb|KND03876.1| hypothetical protein SPPG_01328 [Spizellomyces punctatus DAOM BR117]</Hit_def>
+  <Hit_accession>XP_016611915</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>3.60102e-81</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>SDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>TPETGSRRIMLFRKLPFWRWIKDYFPIGLVKTVDLDPSKNYLFGYHPHGIIGIGAWTNFATEASDFAGKFPGINLRLMTLQTNFHLPLWREVLLCLGISSVSRRSCDNILNKGPGHSCMIVVGGATESLAAFPYTADLTIKKRLGFIKVALRNGANLVPVFSFGENDIWDQVPNPPGSMVRTIQVLFQRYMTFAPPLFFGRGIFQ-------YNVGIMPYRRPVISVVGKPIECPKIENPSTEVILEYQKKYLDGLQAIWDEHKDKY</Hsp_hseq>
+      <Hsp_midline>+  +G+R +   R+LPFWR + DYFP+ L K+ +LDP  NYLFGYHPHG+IG+GA   FATEA+ F   FPG++LRL+TL  NF  P  REVL+ LGI+SV++ S    L + PG S  IV+GGA E+L A P +A LT+ +R GF+K+ALR GA+LVPVF+FGENDI++QV NP G  +R  Q   ++ +  +PP F+GR + +          G++P R P+  ++G PI  P++++PS +VI +Y + Y  GL+ +++ H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|OAJ43035.1|</Hit_id>
+  <Hit_def>hypothetical protein BDEG_26419 [Batrachochytrium dendrobatidis JEL423]</Hit_def>
+  <Hit_accession>OAJ43035</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>264.233</Hsp_bit-score>
+      <Hsp_score>674</Hsp_score>
+      <Hsp_evalue>3.61857e-81</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>LGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPH-----------GVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>LGYIV-YIMLDS-TPQQGGRKVMWLRRLSLWKWLADFFPISLVKTVDLDPKKNYVFGYHPHANSILKSHRLLGIISLGAWSNFATEATHFSQEFKGIDLRLMTLAANFRMPFFREIILHLGICSASRESCDYVLKQGQGNAIMIVVGGAAEALNAHPGTCDLVLVKRFGFVKVALRAGACLVPVFSFGENDIWDQVSTPKDSFIRKYQKWFQKIASFSPPLLHG----RGIFTY---NMGILPYRRRIVSVVGKPIQCPKIDNPTLEETQTFHKLYMEGLQELYNTHKDTY</Hsp_hseq>
+      <Hsp_midline>LGYI  Y++LD  +   G R V W RRL  W+ LAD+FP+ L K+ +LDPK NY+FGYHPH           G+I +GA   FATEAT F + F G+DLRL+TL+ NF+ PF RE+++ LGI S ++ S    L +  G ++ IV+GGAAEAL+A PG+  L L +R GFVK+ALR GA LVPVF+FGENDI++QV  P    +RK+Q + +++   SPP  +G    RG++       G+LP R  I  ++G PI  P++D+P+ +    +H+LY  GL+ELY  H+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|XP_020435763.1|</Hit_id>
+  <Hit_def>diacylglycerol O-acyltransferase 2 [Heterostelium album PN500] &gt;gb|EFA83646.1| diacylglycerol O-acyltransferase 2 [Heterostelium album PN500]</Hit_def>
+  <Hit_accession>XP_020435763</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>5.20667e-81</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDL</Hsp_qseq>
+      <Hsp_hseq>PASLPLHRRLETTAVLFYLMIVPMCMLFAFYSIIIPIFWGFTI------------PYLLWTFFYDTAWERGGRR-NNWIRNHRTWRYFRDYFPISLVTSTKLDPAKNYIFGYHPHGIISMGAFCNFATNATGVDEKYPGITIHPLTLTSNFKIPFLRDVLMSFGISSVARNGCDNVLESGPGQSVMIVIGGAEESLDAHPGHNELLLKKRKGFVKLAFAHGASLVPIYSFGENDIFDQVDNPKGSWIRKCQTKVMKLTGIAPALFNG----RGIFNYDF---GLLPHRRKIVSVVGEPIDVPKVASPSDELIDHYQQLYMDSLSNLFHKYKDEY-----ASESDDL</Hsp_hseq>
+      <Hsp_midline>P   P  RR +  A      +  + M++AF    I I+  + +             Y+ W    D   +  G R   W R    WR   DYFP+ L  S +LDP  NY+FGYHPHG+I +GA   FAT ATG  E +PG+ +  LTL+ NFK PF R+VLM+ GI+SV +      L   PG SV IVIGGA E+LDA PG   L L +RKGFVK+A   GASLVP+++FGENDIF+QV+NP G  +RK QT + +L GI+P  F G    RG++   F   G+LP R  I  ++G PI VP+V  PS ++ID Y QLY   L  L+  ++ ++        SDDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|TXT06010.1|</Hit_id>
+  <Hit_def>hypothetical protein VHUM_03771 [Vanrija humicola]</Hit_def>
+  <Hit_accession>TXT06010</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>6.35924e-81</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>FAPRG---RRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>FAPLNVPTHRRAQTAAVAVWSVMIPITTTAFF--GAFIFPFLWPF---------LIAYAVWFLFVDKAWERKGGRPQEWVRRSAFWRYFAGYYPVRTIKEADLPADRKYVFGYHPHGIISMGALCTFATEATGFSELFPGIKPHLLTLDSNFRVPFYRDILMAMGISSVSKRSCRSILKKGAGNSITIVIGGASESLYAHPGTHNLTLKKRFGFVKVAIREGADLVPVYGFGENDIYEQLPNAKGSAVYKFQKNFQSMFGFTFPLFHG----RGIFNYNY---GLMPFRHDIVTVIGKPIKIKQNPNPSDEEVQEYHKLYIEGLQEIWDKYKDEF</Hsp_hseq>
+      <Hsp_midline>FAP      RR   AA     V I +   AF     FI+P    F          + Y  W++ +D+  +  G R   W RR  FWR  A Y+PVR  K  +L     Y+FGYHPHG+I +GAL TFATEATGF E FPG+   LLTL  NF+ PF R++LMA+GI+SV+K S  + L +  G S+ IVIGGA+E+L A PG+  LTL +R GFVK+A+R GA LVPV+ FGENDI+EQ+ N  G  + KFQ   + + G + P F+G    RG++   +   G++P R  I  +IG PI + Q  +PS + + +YH+LY  GL+E+++ ++ +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|XP_023240374.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-like [Centruroides sculpturatus] &gt;ref|XP_023240375.1| 2-acylglycerol O-acyltransferase 2-like [Centruroides sculpturatus]</Hit_def>
+  <Hit_accession>XP_023240374</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>6.88969e-81</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>GIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>GILLCLYLFFFTQFHFVP---------------LLYAAW-VLYDRDICNRGGRKFDWVRNWTVWKYFKSYFPIKLVKTAELSPEKNYIVGYHPHGIVCAGAFCNFATEANDFSRVFPGMKPHLLTLEGQFWFPFHRELILATGTCAATKEGIEWLLTKKGKGRALVLVIGGAAEALDAHPGTVTLTLRRRKGFVKMALRYGASLVPSFSFGENDIFKQLENPDGSFLRKMQNSLTKILGFSPPLFYG----RGVFQY---NMGYMPFRKEIVTVVGKPIEVEKTENPTDEQIQKLHQDYIESLQQLFDEYKDKY</Hsp_hseq>
+      <Hsp_midline>GI++ +Y F  +     P               L Y  W VL DR   + G R   W R    W+    YFP++L K+ EL P+ NY+ GYHPHG++  GA   FATEA  F   FPG+   LLTL   F FPF RE+++A G  + TK  +   LT+   G ++ +VIGGAAEALDA PG+ TLTL RRKGFVKMALR GASLVP F+FGENDIF+Q+ENPDG  LRK Q  + +++G SPP FYG    RGV++      G +P R+ I  ++G PI V + ++P+ + I K HQ Y   L++L++ ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|TPX61461.1|</Hit_id>
+  <Hit_def>hypothetical protein PhCBS80983_g01044 [Powellomyces hirtus]</Hit_def>
+  <Hit_accession>TPX61461</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>9.19738e-81</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>PVFAPRGRRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRK-GVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>PLSLPMPRRRQT-ASITFWVVCIPILLTIFLYA--LITPQY-----TPWV----LAYIV-FMALDPSSETGGRRIMLF-RKFPMWRWMKDYFPMALVKTAELDPSKNYLFGYHPHGIIALGSWLNFATEASDFAGKFPGINVRLMTLQTNFNLPLWREVLLSLGICSVSRRSCDNILNKGPGHSCMIVVGGATESLHAFPGTADLTVRKRLGFIKVALRNGSNLVPVFSFGENDIWDQVNNPPGSLIRTVQTLFQKYLTFAPPLFFGRG--------IFNYNVGILPYRRPVVSVVGVPIECPKTENPSQELLIEYQNKYLDALQAIWDDHKDKY</Hsp_hseq>
+      <Hsp_midline>P+  P  RRR   A+     V I +++  FL +   I P Y       W+    L YI  ++ LD  S++ G R + + R+ P WR + DYFP+ L K+ ELDP  NYLFGYHPHG+I +G+ + FATEA+ F   FPG+++RL+TL  NF  P  REVL++LGI SV++ S    L + PG S  IV+GGA E+L A PG+A LT+ +R GF+K+ALR G++LVPVF+FGENDI++QV NP G  +R  QT  ++ +  +PP F+GR         IF    G+LP R P+  ++G PI  P+ ++PS +++ +Y   Y   L+ +++ H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_020902957.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 1 [Exaiptasia pallida] &gt;gb|KXJ12887.1| 2-acylglycerol O-acyltransferase 2-A [Exaiptasia pallida]</Hit_def>
+  <Hit_accession>XP_020902957</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.63347e-80</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>LGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLT-RAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDL</Hsp_qseq>
+      <Hsp_hseq>LLYLAWAYVFDSGTPSHGGRRSKYMRKLKVWQYFRDYFPISLVKTAELDPQKNYIFGYHPHGILCAGAFCNFATEATNFSEVFPGITPHLLPLMALFKPPLFRDYIMSSGMCNVSKESCKYVLSEKGPGNSIVIVVGGAEEALDAHPGTNVLCLKQRYGFIKMAIKTGSSLIPTYAFGENDVFYQVGNPRGSMLRKIQAKIQKMVAFAPCLFYG----RGIFQYTF---GVLPHRRPINVVVGAPIDVGKCENPTIEHVQRLHDSYEEKLVELFETHKMKY-----GLTEEDKLTVL</Hsp_hseq>
+      <Hsp_midline>L Y+ W  + D  + S G R   + R+L  W+   DYFP+ L K+ ELDP+ NY+FGYHPHG++  GA   FATEAT F E FPG+   LL L   FK P  R+ +M+ G+ +V+K S    L+ + PG S+ IV+GGA EALDA PG+  L L +R GF+KMA++TG+SL+P +AFGEND+F QV NP G  LRK Q  I++++  +P  FYG    RG+++  F   GVLP R PI V++G PI V + ++P+ + + + H  Y   L EL+E H+ ++     G + +D L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|RIB16750.1|</Hit_id>
+  <Hit_def>diacylglycerol acyltransferase type 2A [Gigaspora rosea]</Hit_def>
+  <Hit_accession>RIB16750</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.67343e-80</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>RRRDDRAAAHAEQVGIVVMIYAFLLSA--IFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHR</Hsp_qseq>
+      <Hsp_hseq>ERRIQTAATALWLVSLPLTILIFLISCTIIFLWPL-------------IIPYL-LFILFDIAPENGGRRY-EFARRAKYWKWYADYFPAKLIKQVDLDPSKNYVFGYHPHGVISVGGWIAFATEATGFSEMFPGITCRMLTLTSNFNIPLYRDYLMAQGLASVSRQSCMNILRRGPGHSVMIVIGGAGESLSARPGINDLILKKRLGFLKIAIVSGASLCPVFSFGENDIWDQADNPEGSKLWRFQKSVQKLSGWTLPLFHGRGIFNYDW-------GFLPHRRPIITIVGKPIDVVQSDNPTEEQVLEVQKKYIAGLYEIWDQYK</Hsp_hseq>
+      <Hsp_midline> RR   AA     V + + I  FL+S   IF++P               + Y+  ++L D   ++ G R+  ++RR  +W+  ADYFP +L K  +LDP  NY+FGYHPHGVI VG  + FATEATGF E FPG+  R+LTL+ NF  P  R+ LMA G+ SV++ S M  L R PG SV IVIGGA E+L ARPG   L L +R GF+K+A+ +GASL PVF+FGENDI++Q +NP+G +L +FQ  +++L G + P F+GR +    W       G LP R PI  I+G PI V Q D+P+ + + +  + Y  GL E+++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_015906352.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 1-like [Parasteatoda tepidariorum]</Hit_def>
+  <Hit_accession>XP_015906352</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>1.80452e-80</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>TYCVFGHATWMRNAF--LGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>TFAILGYLCFTQYYYIPLFYAIWF-LYDYKTPEQGGRRWEWLRNWRMWKYFASYFPISLIKTADFDPNKNYIIGYHPHGLLGFGAFTTFGTEGVNFKETFPGITPRLLTLQAQFNPPLHREHIMCAGVCSASKESINWVLTREGKGNALVIVLGGAAEALDAHPGQATLVLRKRKGFVKLALKHGASLVPSFGFGENDLFEQVENPRGSALREWQDKIKDLLGFSTPIFHG----RGIFQYNY---GFLPYRKPINVVIGKPIDVEKIPHPTEEDINKLHQKYIDSLTALFEEHKVKY</Hsp_hseq>
+      <Hsp_midline>T+ + G+  + +  +  L Y  W+ L D ++   G R   W R    W+  A YFP+ L K+ + DP  NY+ GYHPHG++G GA  TF TE   F E FPG+  RLLTL   F  P  RE +M  G+ S +K S+   LTR   G ++ IV+GGAAEALDA PG ATL L +RKGFVK+AL+ GASLVP F FGEND+FEQVENP G  LR++Q  IK L+G S P F+G    RG+++  +   G LP R+PI V+IG PI V ++  P+ + I+K HQ Y   L  L+E H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_012749809.1|</Hit_id>
+  <Hit_def>hypothetical protein SAMD00019534_105170 [Acytostelium subglobosum LB1] &gt;dbj|GAM27342.1| hypothetical protein SAMD00019534_105170 [Acytostelium subglobosum LB1]</Hit_def>
+  <Hit_accession>XP_012749809</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.1342e-80</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDL</Hsp_qseq>
+      <Hsp_hseq>YLFWMLFIDDRWEHGGRR-LGLVRNHRVWNYFRDYFPISLIASTKLDPNKNYIFGSHPHGIISMGVFCNFATNACGVDQKFPGVTIHPLTLASNFKFPFLRDILMSFGISSVSRAGCDNILQSGPGQSVLIVVGGAEESLDAHPGNNELLLKKRKGFIKLAFAHGASLVPVYAFGENDIFDQVDNPKGSWIRSLQTKVMQITGIAPALFNG----RGIFNYDF---GLLPHRHRIVSVVGEPIDVPKINNPSKELVDHYQQLYMDALSNLFHKYKDEY-----ASDSDDL</Hsp_hseq>
+      <Hsp_midline>Y+ W + +D R +  G R +   R    W    DYFP+ L  S +LDP  NY+FG HPHG+I +G    FAT A G  + FPG+ +  LTL+ NFKFPF R++LM+ GI+SV++A     L   PG SV IV+GGA E+LDA PG+  L L +RKGF+K+A   GASLVPV+AFGENDIF+QV+NP G  +R  QT + Q+ GI+P  F G    RG++   F   G+LP R  I  ++G PI VP++++PS +++D Y QLY   L  L+  ++ ++        SDDL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_015752089.1|</Hit_id>
+  <Hit_def>PREDICTED: 2-acylglycerol O-acyltransferase 1-like [Acropora digitifera]</Hit_def>
+  <Hit_accession>XP_015752089</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.86024e-80</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLT-RAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFH</Hsp_qseq>
+      <Hsp_hseq>YLTWAYLIDGKTPEHGGRRSNFMRKLRIWKYFRDYFPITLIKTAELDPSKNYVFGYHPHGILCAGAFCNFATEATDFSSVFPGITPHLLPLMALFKPPLFRDYIMSSGMCDVSRESCEYILTKKGPGNSVVIVVGGAEEAFDAHPGNYSLVLKPRRGFIKLAMRTGASLVPVFAFGENDLFSQVSNPRGSRLRDIQLKIQRKVAFAPVLFHG----RGIFQYTF---GLIPYRKPVNVVVGEPIPVTKVENPTPEELDHLHSTYIEKLKQLFEDHKAKYN</Hsp_hseq>
+      <Hsp_midline>Y+ W  L+D ++   G R   + R+L  W+   DYFP+ L K+ ELDP  NY+FGYHPHG++  GA   FATEAT F   FPG+   LL L   FK P  R+ +M+ G+  V++ S    LT + PG SV IV+GGA EA DA PG+ +L L  R+GF+K+A+RTGASLVPVFAFGEND+F QV NP G RLR  Q  I++ +  +P  F+G    RG+++  F   G++P R+P+ V++G PI V +V++P+P+ +D  H  Y   LK+L+E H+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|KIK57059.1|</Hit_id>
+  <Hit_def>hypothetical protein GYMLUDRAFT_46682 [Gymnopus luxurians FD-317 M1]</Hit_def>
+  <Hit_accession>KIK57059</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>7.43652e-80</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>PVFAPRGRRRDDRAAA-HAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>PARIPRKRRLQMLAVALWSVMIALTTVLFLFLCSIPWLWPFLAV-------------YQIWIVWIDK-SPEHGGRTSQWFRKWVFWKYFADYYPASFLKEADLPPDRPYVFGYHPHGIIGMGALATFATEATGFSEAFPGIKPHLLTLASNFHMPFYRDIILAMGICSVSKRSCSNILKSGPGSAITIVVGGAAESLSAHPGTADLTLRKRLGFIKVAIQHGADLVPVFSFGENDIYEQMPNQPGTTIHSLQKKFQSLFGFTLPLFHGRGL-------LNYNIGLMPYRRQIVAVIGNPIHVEQCDKPDIQEVTRIQKMYIEELTRIWNTYKDQY</Hsp_hseq>
+      <Hsp_midline>P   PR RR    A A  +  + +  +++ FL S  +++P   V             Y  W V +D+ S   G R   W R+  FW+  ADY+P    K  +L P   Y+FGYHPHG+IG+GAL TFATEATGF EAFPG+   LLTL+ NF  PF R++++A+GI SV+K S    L   PG+++ IV+GGAAE+L A PG+A LTL +R GF+K+A++ GA LVPVF+FGENDI+EQ+ N  G  +   Q   + L G + P F+GR L       +    G++P R  I  +IGNPIHV Q D P    + +  ++Y   L  ++  ++ Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_029187260.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 1-like [Acropora millepora]</Hit_def>
+  <Hit_accession>XP_029187260</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.51865e-79</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLT-RAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFH</Hsp_qseq>
+      <Hsp_hseq>YLTWAYLIDGKTPEHGGRRSNFMRKLRIWKYFRDYFPITLIKTAELDPRKNYVFGYHPHGILCAGAFCNFATEATDFSSVFPGITPHLLPLMALFKPPLFRDYIMSSGMCDVSRESCEYILTKKGPGNSVVIVVGGAEEAFDAHPGNYSLILKPRRGFIKLAMRTGASLVPVFAFGENELFSQVSNPRGSRLRDIQLKIQRKVAFAPVLFHG----RGIFQYTF---GLIPYRKPVNVVVGEPIPVTKVENPTPEELDHLHSTYIEKLKQLFEDHKAKYN</Hsp_hseq>
+      <Hsp_midline>Y+ W  L+D ++   G R   + R+L  W+   DYFP+ L K+ ELDP+ NY+FGYHPHG++  GA   FATEAT F   FPG+   LL L   FK P  R+ +M+ G+  V++ S    LT + PG SV IV+GGA EA DA PG+ +L L  R+GF+K+A+RTGASLVPVFAFGEN++F QV NP G RLR  Q  I++ +  +P  F+G    RG+++  F   G++P R+P+ V++G PI V +V++P+P+ +D  H  Y   LK+L+E H+ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_018274292.1|</Hit_id>
+  <Hit_def>diacylglycerol acyltransferase [Rhodotorula graminis WP1] &gt;gb|KPV78243.1| diacylglycerol acyltransferase [Rhodotorula graminis WP1]</Hit_def>
+  <Hit_accession>XP_018274292</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.93944e-79</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>YCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>FCILCSFPPLWPLVIGYLTWVFLIDQ-APMRGGRPQAWLRKSRVWEWFAGYYPVSLIKSADLPPDQRYVFGYHPHGVIGMGAIANFGTDATGFSRLFPGITPHLLTLASNFKLPVYRELLLALGISSVSMKSCQNILRQGPGSSITIVVGGAAESLSAHPGTADLTLKRRKGFIKLAIRTGASLVPVFSFGENDIFNQLSNERGTRLYKLQKRFQAVFGFTLPIFFGRGLFN-------YNMGLMPYRHPIVSVVGRPIKVKQKDHPSTADLEEVQERYIAELKRIWEDYKEVY</Hsp_hseq>
+      <Hsp_midline>+C+      +    +GY+ W  L+D+ +   G R  AW R+   W   A Y+PV L KS +L P   Y+FGYHPHGVIG+GA+  F T+ATGF   FPG+   LLTL+ NFK P  RE+L+ALGI+SV+  S    L + PG+S+ IV+GGAAE+L A PG+A LTL RRKGF+K+A+RTGASLVPVF+FGENDIF Q+ N  G RL K Q   + + G + P F+GR L            G++P R PI  ++G PI V Q D PS   +++  + Y   LK ++E ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_029187248.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-A-like [Acropora millepora]</Hit_def>
+  <Hit_accession>XP_029187248</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>2.19947e-79</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQ-VDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>YLLWTFCYDWKRSSKGGRRSETFRWLKSWKYLRDYFPVRLIRTKRLDPNKNYIMGYHPHGIMCAGAWTNFATEATGYSSLFPGIKAHLLTLTLVFKFPLYRDYLMAGGLCDVSKESIHHILTQQGTGNAVVIAIGGAAESLDARPGSYTLTLKNRKGFAKMALKTGSNLVPVFSFGENDLFNQVSNPRGSRLRAFQTKLMKVFSFAPPLFFGRGISPKLI-------GFAPHRKPICTVVGAPIPVRKVVPNPSTQQINKLHKRYVQELINLFEEHKHRY</Hsp_hseq>
+      <Hsp_midline>Y+ W    D +  S G R     R L  W+ L DYFPVRL ++  LDP  NY+ GYHPHG++  GA   FATEATG+   FPG+   LLTL++ FKFP  R+ LMA G+  V+K S+   LT+   G +V I IGGAAE+LDARPGS TLTL  RKGF KMAL+TG++LVPVF+FGEND+F QV NP G RLR FQT + ++   +PP F+GR +S  +        G  P R+PI  ++G PI V + V +PS   I+K H+ Y   L  L+E H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_015752093.1|</Hit_id>
+  <Hit_def>PREDICTED: 2-acylglycerol O-acyltransferase 2-A-like [Acropora digitifera]</Hit_def>
+  <Hit_accession>XP_015752093</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>3.6086e-79</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>YIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTR-APGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQ-VDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>YLLWTFCYDWKRSSKGGRRSETFRWLKSWKYLRDYFPVRLIRTKSLDPNKNYIMGYHPHGIMCAGAWTNFATEATGYSSLFPGIKAHLLTLTLVFKFPLFRDYLMAGGLCDVSKESIHHILTQQGTGNAVVIAIGGAAESLDARPGSYTLTLKNRKGFAKMALKTGSNLVPVFSFGENDLFNQVSNPRGSRLRAFQTKLMKVFSFAPPLFFGRGISPKLI-------GFAPHRKPICTVVGAPIPVRKVVPNPSTQQVNKLHKRYVQELINLFEEHKHRY</Hsp_hseq>
+      <Hsp_midline>Y+ W    D +  S G R     R L  W+ L DYFPVRL ++  LDP  NY+ GYHPHG++  GA   FATEATG+   FPG+   LLTL++ FKFP  R+ LMA G+  V+K S+   LT+   G +V I IGGAAE+LDARPGS TLTL  RKGF KMAL+TG++LVPVF+FGEND+F QV NP G RLR FQT + ++   +PP F+GR +S  +        G  P R+PI  ++G PI V + V +PS   ++K H+ Y   L  L+E H+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|XP_028298262.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-A-like isoform X1 [Gouania willdenowi]</Hit_def>
+  <Hit_accession>XP_028298262</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.455</Hsp_bit-score>
+      <Hsp_score>659</Hsp_score>
+      <Hsp_evalue>4.8207e-79</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>FAPRG---RRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIV-IGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHR</Hsp_qseq>
+      <Hsp_hseq>FAPLNVPLRRRLQTAA-------VLQWVYSFLALAQCCLAAFVLLALSDWWMGAVL-YAGW-LWLDWDTPTSGGRRSEWIRRWRLWEYFRDYFPLRLIKTVDLDPKKNYIFGFHPHGVLVAGAFGNFCTESTGFSELFPGLRSHLLMLPFWFRVPFFRDYIMCGGLVSSSKASLSHLVSRPGGGNVAVLAVGGAPEALDARPGALTLQVRSRKGFIKLALKHGAQLVPVFSFGENELFDQMDNPSGSSLRRLQNRLQSIMGIALPMFH----ARGVFQYSF---GLMPYRKQISTVVGKPIAVSQTPSPSSEDVERLHSVYLQSLTELFEEHK</Hsp_hseq>
+      <Hsp_midline>FAP     RRR   AA       ++  +Y+FL  A      + +   + W   A L Y GW + LD  + +SG R   W RR   W    DYFP+RL K+ +LDPK NY+FG+HPHGV+  GA   F TE+TGF E FPGL   LL L   F+ PF R+ +M  G+ S +KAS+   ++R  G +VA++ +GGA EALDARPG+ TL +  RKGF+K+AL+ GA LVPVF+FGEN++F+Q++NP G  LR+ Q  ++ ++GI+ P F+    +RGV++  F   G++P R+ I  ++G PI V Q   PS + +++ H +Y   L EL+E H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_001630435.1|</Hit_id>
+  <Hit_def>predicted protein [Nematostella vectensis] &gt;gb|EDO38372.1| predicted protein [Nematostella vectensis]</Hit_def>
+  <Hit_accession>XP_001630435</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>1.29424e-78</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>EQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNL-TRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>ETAAVALYYYSFFFGALLGFLIIIGLLYTSLYPIALL-YLAWAYLFDYGTPSHGGRRSKFMRGLRVWKYFRDYFPIQLVKTTELDPSKHYVFGYHPHGILCAGAFCNFATEATNFSEVFPGITPHLLPLMALFKPPLFRDYIMSSGMCDVTHDSCEYILQNKGPGNSIVIVVGGASEALDAHPGTNVLTLKARYGFIKLAIRNGASLVPVYAFGENDVFNQVSNPRGSMLRRIQTKIQKTVAFAPVLFYG----RGIFQYTF---GLLPHRKPIHVVVGSPIEVEKNENPSRDEVQRVHDLYEDKLVKLFEDNKEKY</Hsp_hseq>
+      <Hsp_midline>E   + +  Y+F   A+  +       + +    A L Y+ W  L D  + S G R   + R L  W+   DYFP++L K+ ELDP  +Y+FGYHPHG++  GA   FATEAT F E FPG+   LL L   FK P  R+ +M+ G+  VT  S    L  + PG S+ IV+GGA+EALDA PG+  LTL  R GF+K+A+R GASLVPV+AFGEND+F QV NP G  LR+ QT I++ +  +P  FYG    RG+++  F   G+LP R+PI V++G+PI V + ++PS D + + H LY   L +L+E ++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_029828953.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-like [Ixodes scapularis]</Hit_def>
+  <Hit_accession>XP_029828953</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.299</Hsp_bit-score>
+      <Hsp_score>656</Hsp_score>
+      <Hsp_evalue>1.74683e-78</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>LGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIV-IGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDDLLSDL</Hsp_qseq>
+      <Hsp_hseq>LLYVVWMVY-DSNTPKRGGRPIGWVRRWPIWCYARDYYPVSLVKTGELDPGRNYIFGYHPHGIVCAGAFINFATDSTGFDKLYPGIKTLLLTLNMNFYIPFSRELAMFYGLISADRDSLRWMLTKQGGGNAAIIAVGGAQEALDAHKGMYVLTLRNRKGFVRCALQCGADLVPVFSFGENDIFYQVKNPPGSRLRWFQEKMKAVTGLSPVIFYG----RGIMQYNF---GYVPFRKKIVVVVGKPIGVPKVENPTAEDVSFWHEKYITALTELFEEHKA------RCGAKDASLTVL</Hsp_hseq>
+      <Hsp_midline>L Y+ W V  D  +   G R + W RR P W    DY+PV L K+GELDP  NY+FGYHPHG++  GA + FAT++TGF + +PG+   LLTL++NF  PF+RE+ M  G+ S  + S+   LT+  G + AI+ +GGA EALDA  G   LTL  RKGFV+ AL+ GA LVPVF+FGENDIF QV+NP G RLR FQ  +K + G+SP  FYG    RG+ +  F   G +P R+ I V++G PI VP+V++P+ + +  +H+ Y   L EL+E H+       R G+ D  L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>dbj|BBA16945.1|</Hit_id>
+  <Hit_def>diacylgycerol acyltransferase isoform 1 [Rhodosporidiobolus fluvialis]</Hit_def>
+  <Hit_accession>BBA16945</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>1.84891e-78</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>LGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIVIGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>IAYLVWVFCFDQ-APIRGGRPQGWFRRCRVWQWFAEYYPVSLIKTADLPPTRRYIFGYHPHGVIGMGAIANFGTEATGFSRLFPGLKPHLLTLSSNFQLPLYREILLALGVCSVSMKSCQNILRQGPGSSITIVVGGAAESLSAHPGTADLTLKRRKGFIKLAIRQGADLVPVFSFGENDILEQLSNSRGTRLYKAQKKFQALFGFTLPIFFGRGLFN-------YNMGLMPYRHPIVSVVGRPISVTQKDNPTNADLDEVQQRYITELKRIWEDYKEVY</Hsp_hseq>
+      <Hsp_midline>+ Y+ W    D+ +   G R   W RR   W+  A+Y+PV L K+ +L P   Y+FGYHPHGVIG+GA+  F TEATGF   FPGL   LLTLS NF+ P  RE+L+ALG+ SV+  S    L + PG+S+ IV+GGAAE+L A PG+A LTL RRKGF+K+A+R GA LVPVF+FGENDI EQ+ N  G RL K Q   + L G + P F+GR L            G++P R PI  ++G PI V Q D+P+   +D+  Q Y   LK ++E ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|XP_026019306.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-A-like [Astatotilapia calliptera]</Hit_def>
+  <Hit_accession>XP_026019306</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>1.89212e-78</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>433</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>FAPRG---RRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIV-IGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQFHQLNRGGSSDD</Hsp_qseq>
+      <Hsp_hseq>FAPLNVPLRRRLQTAA-------VVQWIFSFLALAQCCLAAFVLLALSDWWMVALL-YAGW-LWLDWDTPTNGGRRSQWMRRWSVWEHFRDYFPLTLLKTVDLDPKKNYIFGFHPHGVLVAGAFGNFCTEATGFSHLFPGLKPHLLMLPFWFRVPFFREYIMCGGLVSSSKSSLSYLVSRPEGGNVAVVAVGGASEALDARPGALTLQVQNRKGFIKLALKHGAQLVPVFSFGENELFDQIENPTGSPLRRLQNRLQSIMGIAMPLFH----ARGVFQYSF---GLIPYRKPIRTIVGKPIPVVQTQSPSSEDIESLHKVYLQNLAELFEQHKRSY------GLADD</Hsp_hseq>
+      <Hsp_midline>FAP     RRR   AA       +V  I++FL  A      + +   + W   A L Y GW + LD  + ++G R   W RR   W    DYFP+ L K+ +LDPK NY+FG+HPHGV+  GA   F TEATGF   FPGL   LL L   F+ PF RE +M  G+ S +K+S+   ++R  G +VA+V +GGA+EALDARPG+ TL +  RKGF+K+AL+ GA LVPVF+FGEN++F+Q+ENP G  LR+ Q  ++ ++GI+ P F+    +RGV++  F   G++P R+PI  I+G PI V Q   PS + I+  H++Y   L EL+E H+R +      G +DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_027132419.1|</Hit_id>
+  <Hit_def>2-acylglycerol O-acyltransferase 2-A-like [Larimichthys crocea]</Hit_def>
+  <Hit_accession>XP_027132419</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>2.12999e-78</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>FAPRG---RRRDDRAAAHAEQVGIVVMIYAFLLSAIFIYPTYCVFGHATWMRNAFLGYIGWYVLLDRRSDSSGTRFVAWSRRLPFWRILADYFPVRLYKSGELDPKGNYLFGYHPHGVIGVGALMTFATEATGFYEAFPGLDLRLLTLSVNFKFPFTREVLMALGINSVTKASVMTNLTRAPGASVAIV-IGGAAEALDARPGSATLTLARRKGFVKMALRTGASLVPVFAFGENDIFEQVENPDGGRLRKFQTYIKQLIGISPPAFYGRSLSRGVWRRIFGRKGVLPKREPIEVIIGNPIHVPQVDDPSPDVIDKYHQLYTVGLKELYELHRRQF</Hsp_qseq>
+      <Hsp_hseq>FAPLNIPLRRRLQTAAT-------LQWIFSFLALAQCCLAAFVLLALSDWWMVALL-YAGW-LWLDWDTPSSGGRRSQWVRSWTVWDHFRDYFPIRLVKTVDLDPKKNYIFGFHPHGVLVAGGFGNFCTEATGFSRLFPGLKSHLLMLPFWFRVPLFRDYIMCGGLVSSCKSSLSYLVSRPEGGNVAVIAVGGAPEALDARPGALTLQVRNRKGFIKLALKHGAQLVPVFSFGENELFDQMENPTGSPLRKLQNRLQSIMGVAMPLFH----ARGVFQYSF---GLMPYRKPIQTVVGKPISVVQTPSPSSEDIECLHKVYLQSLTELFEQHKQTY</Hsp_hseq>
+      <Hsp_midline>FAP     RRR   AA        +  I++FL  A      + +   + W   A L Y GW + LD  + SSG R   W R    W    DYFP+RL K+ +LDPK NY+FG+HPHGV+  G    F TEATGF   FPGL   LL L   F+ P  R+ +M  G+ S  K+S+   ++R  G +VA++ +GGA EALDARPG+ TL +  RKGF+K+AL+ GA LVPVF+FGEN++F+Q+ENP G  LRK Q  ++ ++G++ P F+    +RGV++  F   G++P R+PI+ ++G PI V Q   PS + I+  H++Y   L EL+E H++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>247142021</Statistics_db-num>
+      <Statistics_db-len>89133585871</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
