@@ -1,11 +1,11 @@
 # AutoHomology
 Automatically performs rosetta homology modeling.
 
-Started developing since 12/12/2019.
+Doonam has been developing since 12/12/2019.
 
 At commandline, type
 
-python run_me.py
+   python run_me.py
 
 and enter.
 
