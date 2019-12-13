@@ -9,16 +9,41 @@ util_path = current_dir + "/util/"
 sys.path.insert(0, util_path)
 from util import *
 
+def analyze_BLAST_result(result_handle):
+    
+    blast_records = NCBIXML.parse(result_handle)
+    blast_records = list(blast_records)
+    
+    #E_VALUE_THRESH = 0.04
+    
+    for blast_record in blast_records:
+        for alignment in blast_record.alignments:
+            for hsp in alignment.hsps:
+                print ("****Alignment****")
+                print ("sequence:", alignment.title)
+                print ("length:", alignment.length)
+                print ("e value:", hsp.expect)
+                print (hsp.query[0:75] + "...")
+                print (hsp.match[0:75] + "...")
+                print (hsp.sbjct[0:75] + "...")
+    
+    '''
+    output_file = open(output_file_name, "w") # since it is 'w', an existing file will be overwritten. (if this is "a", new info will be appended to an existing file)
+    output_file.write(result_handle.read())
+    output_file.close()
+    '''
+    
+######## end of def analyze_BLAST_result(blast_records)
+
+
 def run_BLAST_by_NCBI(input_fasta_name):
     
     record = SeqIO.read(input_fasta_name, format="fasta")
     
-    time_start_of_searching = time.time()
-    
+    time_start_of_searching = time.time()    
     result_handle = NCBIWWW.qblast("blastp", "nr", record.format("fasta"))
-    
     time_end_of_searching = time.time()
-    print show_time("BLAST searching", time_start_of_searching, time_end_of_searching)
+    print show_time("\tBLAST searching", time_start_of_searching, time_end_of_searching)
     
     input_fasta_name_wo_path = os.path.basename(input_fasta_name)
     
@@ -31,12 +56,8 @@ def run_BLAST_by_NCBI(input_fasta_name):
     output_folder = os.path.join(current_dir, "output")
     
     os.chdir(output_folder)
-    
-    output_file = open(output_file_name, "w") # since it is 'w', an existing file will be overwritten. (if this is "a", new info will be appended to an existing file)
-    output_file.write(result_handle.read())
-    output_file.close()
-    
-    result_handle.close()
+                    
+    return result_handle
 ######## end of def run_BLAST_by_NCBI(fasta_file_name)
     
 
@@ -51,8 +72,10 @@ fasta_file_name = args[0]
 print "\nStep 1. AutoHomology searches NCBI website (blastp) with " + str(fasta_file_name) + ". Please wait."
 print "\tFor example,"
 print "\t\t41 amino acids tend to take 1 minute."
-print "\t\t451 amino acids tend to take 2 minutes.\n"
+print "\t\t451 amino acids tend to take 2 minutes."
 
-run_BLAST_by_NCBI(fasta_file_name)
+result_handle = run_BLAST_by_NCBI(fasta_file_name)
+#print "\tSee retrieved results at the output folder.\n"
 
-print "See retrieved results at the output folder.\n"
+print "\nStep 2. Analyze the BLAST result."
+analyze_BLAST_result(result_handle)
