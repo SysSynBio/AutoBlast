@@ -1,1 +1,2 @@
-12/12/2019: 41 and 451 AA do not make difference in terms of searching time by online
+Started developing on 12/12/2019.
+
