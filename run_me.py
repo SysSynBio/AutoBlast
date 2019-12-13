@@ -1,8 +1,7 @@
 import os, sys, time
 from Bio.Blast import NCBIXML
 from Bio.Blast import NCBIWWW
-from Bio import SeqIO
-#help(NCBIWWW.qblast)
+from Bio import SearchIO, SeqIO
 
 current_dir = os.getcwd()
 util_path = current_dir + "/util/"
@@ -11,23 +10,30 @@ from util import *
 
 def analyze_BLAST_result(input_fasta_name_wo_path, result_handle):
     print "\nStep 2. Analyze the BLAST result."
-    blast_records = NCBIXML.parse(result_handle)
-    '''
+    
+    #'''
     output_file_name = "retrieved_from_" + str(input_fasta_name_wo_path)[:-6] + ".xml"
     
-    if not os.path.exists('output'):
-        os.makedirs('output')
+    if not os.path.exists('sample/output'):
+        os.makedirs('sample/output')
 
     current_dir = os.getcwd()    
-    output_folder = os.path.join(current_dir, "output")
+    output_folder = os.path.join(current_dir, "sample/output")
     
     os.chdir(output_folder)
     
     output_file = open(output_file_name, "w") # since it is 'w', an existing file will be overwritten. (if this is "a", new info will be appended to an existing file)
     output_file.write(result_handle.read())
     output_file.close()
+    
+    blast_qresult = SearchIO.read(output_file_name, "blast-xml")
+    print (blast_qresult)
+    #'''
+    
     '''
-    blast_records_list = list(blast_records) # once blast_records becomes a list, blast_records is no longer accessible
+    blast_records = NCBIXML.parse(result_handle)
+    blast_records_list = list(blast_records)
+    # "result_handle.read()" is done -> "raise ValueError("Your XML file was empty")"
     
     for blast_record_list in blast_records_list:
         for alignment in blast_record_list.alignments:
@@ -39,7 +45,7 @@ def analyze_BLAST_result(input_fasta_name_wo_path, result_handle):
                 #print (hsp.query[0:75] + "...")
                 #print (hsp.match[0:75] + "...")
                 #print (hsp.sbjct[0:75] + "...")
-    
+    '''
 ######## end of def analyze_BLAST_result(blast_records)
 
 
