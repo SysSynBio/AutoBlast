@@ -9,9 +9,8 @@ sys.path.insert(0, util_path)
 from util import *
 
 def analyze_BLAST_result(input_fasta_name_wo_path, result_handle):
-    print "\nStep 2. Analyze the BLAST result."
+    show_header("Step 2. Analyzing the BLAST result.")
     
-    #'''
     output_file_name = "retrieved_from_" + str(input_fasta_name_wo_path)[:-6] + ".xml"
     
     if not os.path.exists('sample/output'):
@@ -26,31 +25,17 @@ def analyze_BLAST_result(input_fasta_name_wo_path, result_handle):
     output_file.write(result_handle.read())
     output_file.close()
     
-    blast_qresult = SearchIO.read(output_file_name, "blast-xml")
-    print (blast_qresult)
-    #'''
-    
-    '''
-    blast_records = NCBIXML.parse(result_handle)
-    blast_records_list = list(blast_records)
-    # "result_handle.read()" is done -> "raise ValueError("Your XML file was empty")"
-    
-    for blast_record_list in blast_records_list:
-        for alignment in blast_record_list.alignments:
-            for hsp in alignment.hsps:
-                print ("****Alignment****")
-                print ("sequence:", alignment.title)
-                print ("length:", alignment.length)
-                print ("e value:", hsp.expect)
-                #print (hsp.query[0:75] + "...")
-                #print (hsp.match[0:75] + "...")
-                #print (hsp.sbjct[0:75] + "...")
-    '''
+    blast_qresult = SearchIO.read(output_file_name, "blast-xml") # query_result
+    filter_for_no_predicted_hypothetical = lambda hit: ("PREDICTED" in hit.description == False)
+    filtered_qresult = blast_qresult.hit_filter(filter_for_no_predicted_hypothetical)
+    for hit in filtered_qresult:
+        print("%s" %(hit.description))
+
 ######## end of def analyze_BLAST_result(blast_records)
 
 
 def run_BLAST_by_NCBI(input_fasta_name):
-    print "\nStep 1. AutoHomology is searching NCBI website (blastp) with " + str(fasta_file_name)
+    show_header("Step 1. Searching NCBI website (blastp) with " + str(fasta_file_name))
     print "\tPlease wait."
     print "\tAs references,"
     print "\t\t 41 amino acids take ~1 minute."
@@ -59,10 +44,8 @@ def run_BLAST_by_NCBI(input_fasta_name):
     record = SeqIO.read(input_fasta_name, format="fasta")
     
     time_start_of_searching = time.time()    
-    
     result_handle = NCBIWWW.qblast("blastp", "nr", record.format("fasta"))
     # "nr" means "Non-redundant protein sequences"
-    
     time_end_of_searching = time.time()
     print show_time("\tBLAST searching", time_start_of_searching, time_end_of_searching)
     

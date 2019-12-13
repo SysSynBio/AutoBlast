@@ -5,7 +5,7 @@
   <BlastOutput_version>BLASTP 2.10.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
   <BlastOutput_db>nr_v5</BlastOutput_db>
-  <BlastOutput_query-ID>Query_41789</BlastOutput_query-ID>
+  <BlastOutput_query-ID>Query_56537</BlastOutput_query-ID>
   <BlastOutput_query-def>DGAT_target</BlastOutput_query-def>
   <BlastOutput_query-len>451</BlastOutput_query-len>
   <BlastOutput_param>
@@ -20,7 +20,7 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_41789</Iteration_query-ID>
+  <Iteration_query-ID>Query_56537</Iteration_query-ID>
   <Iteration_query-def>DGAT_target</Iteration_query-def>
   <Iteration_query-len>451</Iteration_query-len>
 <Iteration_hits>
