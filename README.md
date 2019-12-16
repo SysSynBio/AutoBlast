@@ -1,5 +1,5 @@
 # AutoBlast
-Automatically performs rosetta homology modeling.
+Automatically performs blast
 
 Doonam has been developing since 12/12/2019.
 
